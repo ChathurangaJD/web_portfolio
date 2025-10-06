@@ -212,6 +212,33 @@ Passionate about building scalable cloud infrastructure and automation. Experien
         </div>
       </div>
     </section>
+
+    <section class="badges" id="badges">
+  <div class="badges-box">
+    <h2 class="heading">Technical Badges</h2>
+    <div class="badges-wrapper" id="badgesList">
+      <script>
+        const badges = [
+          { name: "AWS Certified Cloud Practitioner", img: "./aws-badge.png", url: "https://www.credly.com/badges/your-aws-badge-link" },
+          { name: "Cisco Networking Essentials", img: "./cisco-badge.png", url: "https://www.credly.com/badges/your-cisco-badge-link" },
+          { name: "Azure Fundamentals", img: "./azure-badge.png", url: "https://www.credly.com/badges/your-azure-badge-link" }
+        ];
+
+        document.getElementById("badgesList").innerHTML = badges
+          .map(badge => `
+            <div class="badge-item">
+              <a href="${badge.url}" target="_blank">
+                <img src="${badge.img}" alt="${badge.name}" />
+                <h2>${badge.name}</h2>
+              </a>
+            </div>
+          `)
+          .join("");
+      </script>
+    </div>
+  </div>
+</section>
+
     
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
