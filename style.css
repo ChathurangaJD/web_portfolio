@@ -236,22 +236,14 @@ span {
 }
 @keyframes words {
   0%,
-  20% {
+  30% {
     content: "Web Dev";
   }
-  21%,
-  40% {
-    content: "";
-  }
-  41%,
-  60% {
+  31%,
+  62% {
     content: "Frontend Dev";
   }
-  61%,
-  80% {
-    content: "";
-  }
-  81%,
+  63%,
   100% {
     content: "Cloud Ops";
   }
