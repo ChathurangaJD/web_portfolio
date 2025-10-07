@@ -237,23 +237,23 @@ span {
 @keyframes words {
   0%,
   20% {
-    content: "Web Developer";
+    content: "Web Dev";
   }
   21%,
   40% {
-    content: "Frontend Developer";
+    content: "";
   }
   41%,
   60% {
-    content: "Web Designer";
+    content: "Frontend Dev";
   }
   61%,
   80% {
-    content: "Software Developer";
+    content: "";
   }
   81%,
   100% {
-    content: "Cloud Computing";
+    content: "Cloud Ops";
   }
 }
 @keyframes typing {
